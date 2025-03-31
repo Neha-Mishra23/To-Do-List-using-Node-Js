@@ -1,0 +1,262 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+.Container {
+    width: 90%;
+    height: 90%;
+    background-color: #FAFAFA;
+    margin: auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    padding: 10px;
+    z-index: -7;
+   
+}
+
+.AllUSerNuber {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 15px;
+
+}
+
+.AllUSerNuber h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: gray;
+    font-size: 15px;
+    line-height: 50px;
+    display: inline;
+    margin-right: 15px;
+}
+
+.AllUSerNuber h5 span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000000;
+}
+
+.AllUSerNuber i {
+    color: gray;
+    font-size: 15px;
+}
+.Add{
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    background-color: rgb(94, 97, 255);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.Add i{
+    font-size: 14px;  
+}
+.UserDetails{
+    width: 100%;
+    height: 80%;
+    margin-top: 10px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+th{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+
+}
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  td img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+ td span{
+       font-weight: bold;
+        position: relative;
+        left: 10px;
+ }
+  tr{
+  transition: all 0.3s;
+  
+  }
+  td h5{
+    background-color: rgb(191, 208, 255);
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: #183bff;
+
+  }
+  td h5 i{
+    color: #183bff;
+    font-size: 11px;
+  }
+  td i{
+    font-size: 10px ;
+    color: green;
+  }
+
+
+  tbody tr:hover {
+    background-color: #F2F2F2;
+  }
+
+.ri-arrow-up-line{
+    font-size: 15px;
+}
+.ri-arrow-down-line{
+    font-size: 15px;
+}
+.ri-pencil-line{
+    font-size: 18px;
+    color: #183bff;
+    padding: 3px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.ri-delete-bin-6-line{
+    font-size: 18px;
+    color: red;
+    padding: 3px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.ri-eye-line{
+    font-size: 18px;
+    color: #183bff;
+    padding: 3px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.Form-Container{
+    width: 350px;
+    height: 570px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: #000000;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;    
+}
+.Form-Container form label{
+    display: block;
+    margin-bottom: 5px;
+}
+.Form-Container form label span{
+    color: red;
+}
+.Form-Container form input{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     border-bottom: 1px solid grey;
+     margin-bottom: 10px;
+}
+select{
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+}
+.Form-Container form button{
+    position: relative;
+    left: 30%;
+    width: 100px;
+    border-radius: 5px;
+    outline: none;
+    background-color: green;
+    border: none;
+    color: #F2F2F2;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+     z-index: -5;
+     display: none;
+  }
+  .showmodal{
+    display: block;
+  }
+
+.Modal{
+    width: 370px;
+    height: 210px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    display: flex;
+    margin-top: -40%;
+    transition: all 0.3s ease-in-out;
+}
+.showModal{
+    margin: 0%;
+}
+.Image-Section{
+    width: 50%;
+    height: 100%;
+    background-color: pink;
+    z-index: 600;
+    margin-right: 10px;
+}
+.Image-Section img{
+    width: 100%;
+    height: 100%;
+}
+.userDetails{
+    margin-top: 14px;
+}
+.Cross{
+    position: relative;
+    left: 97%;
+    top: -5%;
+    cursor: pointer;
+}
